@@ -1,0 +1,22 @@
+/*astrik wildcard selector to overide defult styles to the browser*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/*header section*/
+header {
+    background-color: rgb(219, 113, 113);
+}
+
+/*main section*/
+main {
+    background-color: #209CEE;
+}
+
+/*footer section*/
+footer {
+    background-color: rgb(217, 102, 102);
+}
