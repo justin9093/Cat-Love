@@ -68,6 +68,19 @@ nav {
     top: 100%;
 }
 
+/*nav toggle*/
+#toggle:checked~nav {
+    display: block;
+}
+
+#toggle {
+    display: none;
+}
+
+.toggle-label {
+    font-size: 2rem;
+}
+
 /*main section*/
 main {
     background-color: #209CEE;
@@ -79,3 +92,31 @@ main {
 footer {
     background-color: rgb(217, 102, 102);
 }
+
+/*media query tablets or larger*/
+@media screen and (min-width: 768px) {
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+
+    #menu {
+        display: flex;
+    }
+
+    #menu>li {
+        padding-left: 1rem;
+    }
+
+    .toggle-label {
+        display: none;
+    }
+
+    #logo {
+        font-size: 280%;
+        line-height: 75px;
+        margin: 0 0.5rem;
+    }
