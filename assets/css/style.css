@@ -101,10 +101,11 @@ main {
 #cover-text {
     background-color: rgba(32, 156, 238, .7);
     font-size: 130%;
-    position: fixed;
-    bottom: 30px;
+    position: absolute;
+    top: 350px;
     width: 80%;
     min-height: 200px;
+    padding-top: 40px;
     padding-left: 10px;
 }
 
@@ -125,6 +126,13 @@ main {
 #about-us li {
     list-style-position: inside;
     list-style-type: circle;
+}
+
+table,
+th,
+td {
+    border: 1px solid;
+    text-align: center;
 }
 
 /*footer section*/
@@ -185,5 +193,10 @@ footer {
     #cover-text {
         width: 300px;
         right: 50px;
+    }
+
+    table {
+        margin-left: auto;
+        
     }
 }
