@@ -115,8 +115,8 @@ main {
 }
 
 #about-us {
-    background-color: #209CEE;
-    color: #ffffff;
+    background-color: #ffffff;
+    color: #209CEE;
 }
 
 #about-us h2 {
@@ -142,6 +142,54 @@ td {
     text-align: center;
 }
 
+/*sign up page*/
+#cat-toy {
+    height: 500px;
+    width: 100%;
+    background: url(../images/pexels-arina-krasnikova-7726315.jpg) no-repeat center center/cover;
+}
+
+#signup-form {
+    color: #ffffff;
+    background-color: rgba(60, 60, 60, 0.6);
+    position: absolute;
+    top: 50px;
+    width: 100%;
+    min-height: 200px;
+    padding-left: 40px;
+}
+
+#signup-form>h2 {
+    color: #fafafa;
+    margin-bottom: 20px;
+}
+
+.text-input {
+    background: transparent;
+    color: #fafafa;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+    padding: 0 5px;
+}
+
+.radio-buttons {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.join-button {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px;
+    font-size: 100%;
+    background-color: #454b1b;
+    color: #fafafa;
+}
+
 /*footer section*/
 footer {
     background-color: #209CEE;
@@ -162,7 +210,7 @@ footer {
     color: #ffffff;
 }
 
-#contact{
+#contact {
     text-align: center;
 }
 
