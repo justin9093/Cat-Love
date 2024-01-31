@@ -121,11 +121,18 @@ main {
 
 #about-us h2 {
     text-decoration: underline;
+    text-align: center;
+}
+
+#about-us h4 {
+    text-decoration: underline;
+    font-size: 180%;
 }
 
 #about-us li {
     list-style-position: inside;
     list-style-type: circle;
+    font-size: 180%;
 }
 
 table,
@@ -137,7 +144,7 @@ td {
 
 /*footer section*/
 footer {
-    background-color: rgb(217, 102, 102);
+    background-color: #209CEE;
 }
 
 /*Footer*/
@@ -152,7 +159,7 @@ footer {
 #social-networks i {
     font-size: 160%;
     padding: 5%;
-    color: #3a3a3a;
+    color: #ffffff;
 }
 
 /*media query tablets or larger*/
@@ -193,10 +200,5 @@ footer {
     #cover-text {
         width: 300px;
         right: 50px;
-    }
-
-    table {
-        margin-left: auto;
-        
     }
 }
