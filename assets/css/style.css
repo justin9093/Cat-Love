@@ -253,4 +253,7 @@ footer {
         width: 300px;
         right: 50px;
     }
+    .toggle-lable{
+        display: none;
+    }
 }
