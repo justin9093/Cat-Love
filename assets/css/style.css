@@ -162,6 +162,10 @@ footer {
     color: #ffffff;
 }
 
+#contact{
+    text-align: center;
+}
+
 /*media query tablets or larger*/
 @media screen and (min-width: 768px) {
     nav {
